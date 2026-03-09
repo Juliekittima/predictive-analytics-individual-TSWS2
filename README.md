@@ -17,12 +17,13 @@ An end-to-end predictive analytics pipeline to predict whether a credit card hol
 │   └── visualisation.py                # Plotting utilities
 ├── data/
 │   └── default of credit card clients.xls
+│   └── DATA_DICTIONARY.md
 ├── outputs/
 │   ├── figures/                        # Saved plots
 │   └── models/                         # Serialised models
-├── report/
-│   ├── report.pdf
-│   └── appendix_agent_log.pdf
+├── tests/
+│   ├── test_data_prep.py               # 9 unit tests for preprocessing
+│   └── test_pipeline.py                # 3 end-to-end pipeline smoke tests
 ├── requirements.txt
 └── README.md
 ```
